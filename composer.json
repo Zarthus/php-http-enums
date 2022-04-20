@@ -1,0 +1,28 @@
+{
+    "name": "zarthus/http-enums",
+    "description": "Minimalistic package that provides HTTP enums for PHP 8.1 and higher",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0",
+    "homepage": "https://github.com/Zarthus/php-http-enums",
+    "authors": [
+        {
+            "name": "Jos Ahrens",
+            "homepage": "https://github.com/zarthus"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zarthus\\Http\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "vimeo/psalm": "^4.22"
+    },
+    "scripts": {
+        "test": "psalm"
+    }
+}
